@@ -1,0 +1,14 @@
+{
+  "receiver": "alert-devops",
+  "status": "firing",
+  "alerts": [{
+    "status": "firing",
+    "labels": {
+      "alertname": "TestAlert",
+      "severity": "critical"
+    },
+    "annotations": {
+      "summary": "Test VictoriaMetrics alert"
+    }
+  }]
+}

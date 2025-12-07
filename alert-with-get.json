@@ -1,0 +1,14 @@
+{
+  "message": "App sync unknown",
+  "app": {
+    "metadata": {"name": "vhcore-api"},
+    "spec": {
+      "project": "vhcore",
+      "destination": {"namespace": "vhcore-prod"}
+    },
+    "status": {
+      "sync": {"status": "Unknown"}
+    }
+  },
+  "context": {}
+}

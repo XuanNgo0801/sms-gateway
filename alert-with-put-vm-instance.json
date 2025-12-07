@@ -1,0 +1,31 @@
+{
+  "receiver": "alert-d1-lgc-devops",
+  "status": "resolved",
+  "alerts": [
+    {
+      "status": "resolved",
+      "labels": {
+        "alertgroup": "Monitor Kafka Core",
+        "alertname": "alertname-instance",
+        "job": "dc1-kafka-core",
+        "severity": "critical",
+        "instance": "10.9.8.7"
+      },
+      "annotations": {
+        "description": "Vmagent dropped 551Mi from persistent queue on instance 10.90.1.142:8429 for the last 10m.",
+        "summary": "this is instance alert"
+      },
+      "startsAt": "2025-07-07T09:13:30+07:00",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "http://alertmanager-vmks-acpui-victoria-metrics-k8s-stack-5666f59944-xsm57:8080/#/alert?alertId=14539619035117554733",
+      "fingerprint": "012feca9fc83bb6"
+    }
+  ],
+  "groupLabels": {
+    "alertname": "PersistentQueueIsDroppingData",
+    "cluster": "d1_coreup",
+    "job": "vmagent-victoriametrics-victoria-metrics-k8s-stack",
+    "namespace": "infra-monitoring",
+    "severity": "critical"
+  }
+}
